@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: areal, sans-serif;
+}
+
+.tabControl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000c18;
+}
+
+.menuBar {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #1a2127;
+}
+
+.mainContent {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 110px);
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #272727;
+  caret-color: #d8d8d8;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #1a202b;
+  color: #cbcccf;
+  line-height: 30px;
+  font-size: 13px;
+  user-select: none;
+}
+
+.caretPosition{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+
+#rowNumber{
+  margin-left: 3px;
+}
+
+#columnNumber{
+  margin-left: 3px;
+}
